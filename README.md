@@ -5,6 +5,8 @@ monitor in the reference reel (`instagram.com/reel/DfFrvCWTijy`). It has green a
 magenta performance trajectories on the left, a narrow endpoint strip, curved connector
 fans, and a tightly packed stock-card matrix on the right.
 
+**Live demo:** https://walaryan-wq.github.io/TradeXX/
+
 **It runs on simulated data only.** A visible `DEMO DATA` badge is always shown. The app
 has no market connection, and nothing on screen is a quote, recommendation, or signal.
 
@@ -26,6 +28,10 @@ npm run build && npm run preview
 ```
 
 A clean copy (no `node_modules`, no `dist`) was verified with `npm ci && npm run build`.
+
+Every push to `main` builds and deploys to GitHub Pages through
+`.github/workflows/deploy.yml`. Production builds use the base path `/TradeXX/`
+(`vite.config.ts`), so a fork under another repository name must change it.
 
 URL options give repeatable sessions and screenshots:
 
