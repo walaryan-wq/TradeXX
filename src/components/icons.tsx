@@ -1,0 +1,10 @@
+const P = { width: 16, height: 16, viewBox: '0 0 16 16', fill: 'none', stroke: 'currentColor', strokeWidth: 1.4, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
+export const IconPause = () => (<svg {...P}><path d="M5.5 3.5v9M10.5 3.5v9" /></svg>);
+export const IconPlay = () => (<svg {...P}><path d="M5 3.2v9.6L12.5 8z" /></svg>);
+export const IconReplay = () => (<svg {...P}><path d="M3 8a5 5 0 1 0 1.6-3.7" /><path d="M3 2.8v2.6h2.6" /></svg>);
+export const IconFull = () => (<svg {...P}><path d="M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10" /></svg>);
+export const IconExitFull = () => (<svg {...P}><path d="M6 2.5V6H2.5M13.5 6H10V2.5M10 13.5V10h3.5M2.5 10H6v3.5" /></svg>);
+export const IconSliders = () => (<svg {...P}><path d="M3 4h10M3 8h10M3 12h10" /><circle cx="6" cy="4" r="1.4" fill="#050A13" /><circle cx="10" cy="8" r="1.4" fill="#050A13" /><circle cx="5" cy="12" r="1.4" fill="#050A13" /></svg>);
+export const IconInfo = () => (<svg {...P}><circle cx="8" cy="8" r="5.8" /><path d="M8 7.2v4M8 4.9v.1" /></svg>);
+export const IconSearch = () => (<svg {...P} width={13} height={13}><circle cx="7" cy="7" r="4.3" /><path d="M10.2 10.2l3.3 3.3" /></svg>);
+export const IconRank = () => (<svg {...P}><path d="M3 12.5h2.5V8H3zM6.8 12.5h2.5V3.5H6.8zM10.6 12.5h2.5V6h-2.5z" /></svg>);
